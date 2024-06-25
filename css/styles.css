@@ -1,0 +1,170 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #252525; /* cor de fundo da tela */
+  color: white; /* cor de fundo dos labels*/
+}
+
+.primary-bg-color {
+  background-color: #252525; /* cor de fundo da navbar de cima */
+}
+
+.secondary-bg-color {
+  background-color: orange; /* cor de fundo da faixa */
+}
+
+
+/* NAVBAR */
+#navbar .navbar-nav {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#navbar .navbar-nav li {
+  margin-left: 1em;
+}
+
+#navbar a,
+#navbar button {
+  color: #FFF;
+}
+
+#navbar li {
+  position: relative;
+}
+
+#navbar i {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+
+@media(min-width: 768px) {
+  .navbar-brand {
+    text-align: left;
+  }
+}
+
+#navbar-items {
+  justify-content: space-between;
+}
+
+@media(min-width: 768px) {
+  #navbar-items {
+    display: flex;
+    min-width: 80%;
+  }
+}
+
+
+/* BOTTOM NAVBAR */
+#bottom-navbar-container .container {
+  justify-content: flex-end;
+}
+
+#bottom-navbar-container a {
+  color: #252525;
+  font-weight: 600;
+}
+
+.navbar-toggler {
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.40s;
+}
+
+a:hover {
+  opacity: 0.300
+}
+
+
+/* CARDS */
+#cards {
+  margin-top: 10em; /*Aqui regula para o card descer ou subir na página*/
+  z-index: 10;
+}
+
+#cards .col-12 {
+  z-index: 1;
+  height: 500px;
+  padding: 4.5em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media(min-width: 768px) {
+  #cards .col-12 {
+    max-width: 30%;
+  }
+}
+
+#cards .col-12 h2 {
+  text-transform: uppercase;
+  max-width: 50px;
+  font-size: 2.2em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+#cards .col-12 img {
+  height: 220px;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+#cards .col-12 a {
+  font-weight: bold;
+}
+
+
+/* Conteúdo principal */
+#TituloListadeBares{
+ margin-top: 40px; /*Aqui regula para o título descer ou subir na página*/
+}
+
+#tbListarBares {
+  margin-top: 60px; /*Aqui regula para o título descer ou subir na lista*/
+}
+ 
+
+/* Espaçamento lista */
+#TituloListadeGarconetes{
+  margin-top: 40px; /*Aqui regula para o título descer ou subir na página*/
+ }
+
+#tbListarGarconetes {
+  margin-top: 60px; /*Aqui regula para o título descer ou subir na lista*/
+}
+
+
+/*FOOTER da página*/
+footer {
+  border-top: 1px solid #CCC;
+  height: 250px;
+  padding: 30px;
+}
+
+footer i {
+  font-size: 20px;
+}
+
+footer p {
+  text-align: center;
+  margin: 20px;
+}
+
+a:hover i {
+  color: #C1B696;
+}
